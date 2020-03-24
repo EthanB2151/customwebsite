@@ -3997,6 +3997,10 @@ ul.pagination .page-numbers.current { color: #16171e; }
 
 .lity-hide { display: none; }
 
+.wrap {
+  background-color: gray !important;
+}
+
 .featherlight .featherlight-close-icon { top: 1.3em; right: 2em; font-size: 1.25em; }
 .featherlight .featherlight-content { padding: 75px 2em 45px; border-radius: 4px; }
 .featherlight .featherlight-inner { padding-top: 2em; position: relative; }

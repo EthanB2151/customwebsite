@@ -1,7 +1,7 @@
 :root {
-  --color-primary:#f5634b;
-  --color-gradient-start:#f5634b;
-  --color-gradient-stop:#f5634b;
+  --color-primary:blue;
+  --color-gradient-start:blue;
+  --color-gradient-stop:blue;
 }
 
 body {
@@ -9,7 +9,8 @@ body {
   font-weight: 400;
   font-size: 15px;
   line-height: 1.9em;
-  color: #808291;
+  color: white ;
+  background-color: gray !important;
 }
 
 .h1, h1,
@@ -20,21 +21,32 @@ body {
 .h6, h6 {
   font-family: 'Teko', sans-serif;
   line-height: 1.2em;
-  color: #181b31;
+  color: blue;
 }
 
 .h4, h4,
 .h5, h5,
 .h6, h6 {
   font-family: 'Poppins', sans-serif;
+  color: blue;
+}
+
+.lqd-column col-md-8 {
+  color: blue;
 }
 
 .h1, h1 {
   font-size: 65px;
 }
-
+.ld-fh-txt {
+  color: blue;
+}
+.txt{
+  color: blue;
+}
 .h2, h2 {
   font-size: 55px;
+  color: blue;
 }
 
 .h3, h3 {
@@ -62,18 +74,18 @@ body {
   font-size: 20px;
   text-transform: uppercase;
   letter-spacing: 0.1em;
-  color: #fff;
+  color: white;
 }
 
 .main-nav > li > a .link-ext {
-  background-color: var(--color-primary);
+  background-color: gray;
 }
 
 .main-nav > li.is-active > a,
 .main-nav > li.current-menu-item > a,
 .main-nav > li:hover > a,
 .main-nav > li > a:hover {
-  color: var(--color-primary);
+  color: gray;
 }
 
 .btn {
@@ -81,22 +93,22 @@ body {
 }
 
 .main-footer {
-  color: #a1a3ab;
+  color: white;
 }
 
 .main-footer a:not(.btn) {
-  color: #777981;
+  color: white;
 }
 
 .main-footer a:not(.btn):hover {
-  color: #fff;
+  color: white;
 }
 
 .main-footer .social-icon a {
-  color: #fff;
-  background-color: rgba(255, 255, 255, 0.15);
+  color: white;
+  background-color: gray;
 }
 
 .main-footer .social-icon a:hover {
-  background-color: var(--color-primary);
+  background-color: gray;
 }
